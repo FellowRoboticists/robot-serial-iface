@@ -1,0 +1,24 @@
+{
+  "name": "robot-serial-iface",
+  "version": "1.0.0",
+  "description": "Generalized serial interface to iRobot Create and Arduino robots.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tape test/**/*-test.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NaiveRoboticist/robot-serial-iface.git"
+  },
+  "keywords": [
+    "serial",
+    "robot",
+    "interface"
+  ],
+  "author": "Naive Roboticist",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^2.0.6",
+    "packet-buffer-parser": "^1.0.0"
+  }
+}
