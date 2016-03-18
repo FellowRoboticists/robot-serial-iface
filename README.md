@@ -28,11 +28,16 @@ When interfacing to an Arduino-based robot:
         name: 'temperature',
         startByte: 0x03,
         numBytes: 2
+        // No thresold function, so all events
+        // are emitted
       },
       {
         name: 'humidity',
         startByte: 0x02,
-        numBytes: 2
+        numBytes: 2,
+        // Emit events for a humidity value
+        // less than 50
+        meetsThreshold: (value) => value < 50
       }
     ];
 
