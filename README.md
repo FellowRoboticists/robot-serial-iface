@@ -50,7 +50,7 @@ When interfacing to an Arduino-based robot:
 
 The primary difference between interfacing with an Arduino-based
 robot and an iRobot Create is that one would pass a function as 
-the third parameter of the 'robot.start(...)' method. This function
+the fourth parameter of the 'robot.start(...)' method. This function
 will be invoked to specify the initialization commands to the Create.
 
 Copyright
