@@ -18,7 +18,7 @@
   "author": "Naive Roboticist",
   "license": "MIT",
   "dependencies": {
-    "serialport": "^2.0.6",
+    "serialport": "^3.1.2",
     "packet-buffer-parser": "^1.0.0"
   }
 }
